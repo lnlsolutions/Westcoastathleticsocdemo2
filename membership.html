@@ -3,10 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>West Coast Athletics | Memberships, Personal Training & Martial Arts</title>
   <meta name="description" content="Explore West Coast Athletics memberships including personal training, martial arts membership, private training, and drop-in options in Placentia CA." />
-  <meta name="keywords" content="gym membership Placentia, martial arts membership, personal training membership, private training, drop in gym Placentia" />
+  <meta name="keywords" content="gym membership Placentia, martial arts membership, personal training membership, private training, drop in training" />
   <meta name="author" content="LNL Solutions" />
+
   <meta property="og:title" content="West Coast Athletics | Memberships, Personal Training & Martial Arts" />
   <meta property="og:description" content="Explore West Coast Athletics memberships including personal training, martial arts membership, private training, and drop-in options in Placentia CA." />
   <meta property="og:type" content="website" />
@@ -17,13 +19,15 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-<header class="topbar">
-  <a href="index.html" class="brand">
-    <span class="brand-badge">WCA</span>
-    <span>West Coast<br><b>Athletics</b></span>
+<header class="fight-nav">
+  <a class="brand" href="index.html">
+    <span class="brand-box">WCA</span>
+    <span>West Coast <b>Athletics</b></span>
   </a>
-  <button class="menu-toggle" onclick="toggleMenu()" aria-label="Open navigation">☰</button>
-  <nav id="siteNav">
+
+  <button class="nav-toggle" onclick="toggleMenu()">☰</button>
+
+  <nav id="mainNav">
     <a href="index.html">Home</a>
     <a href="personal-training.html">Personal Training</a>
     <a href="youth-athletics.html">Youth Athletics</a>
@@ -31,39 +35,69 @@
     <a href="membership.html">Membership</a>
     <a href="schedule-contact.html">Schedule</a>
   </nav>
-  <a class="topbar-cta" href="schedule-contact.html#contact">Free Workout</a>
+
+  <a class="nav-button" href="schedule-contact.html#contact">Free Workout</a>
 </header>
 <main>
-  <section class="page-banner center-banner reveal">
-    <div><p class="kicker">Membership</p><h1>Choose Your Training Path.</h1><p>Options for members focused on fitness, martial arts, private coaching, athlete development, and long-term progress.</p></div>
+  <section class="membership-hero reveal">
+    <p class="eyebrow">Membership</p>
+    <h1>Choose Your Training Path.</h1>
+    <p>Options for members focused on fitness, martial arts, private coaching, athlete development, and long-term progress.</p>
   </section>
 
-  <section class="pricing-section reveal">
-    <div class="price-row">
-      <div class="pricing-card"><p class="kicker">Personal Training</p><h2>$60<span>/week</span></h2><p>Structured coaching for strength, conditioning, weight management, and accountability.</p><ul><li>Customized programming</li><li>Coach accountability</li><li>Strength + conditioning</li><li>Goal-based progress</li></ul><a href="schedule-contact.html#contact" class="btn outline">Ask About Training</a></div>
-      <div class="pricing-card featured-card"><p class="kicker">Martial Arts</p><h2>$140<span>/month</span></h2><p>Full martial arts membership for Boxing, Kickboxing, Muay Thai, No-Gi Jiu Jitsu, self-defense, and combat conditioning.</p><ul><li>Boxing Level 1 + 2</li><li>Kickboxing Level 1 + 2</li><li>Muay Thai striking</li><li>No-Gi Jiu Jitsu</li><li>Combat conditioning</li></ul><a href="schedule-contact.html#contact" class="btn yellow">Try Free Class</a></div>
-      <div class="pricing-card"><p class="kicker">Private Training</p><h2>$40<span>/session</span></h2><p>One-on-one coaching for focused development, technique, strength, conditioning, or combat skill.</p><ul><li>Private attention</li><li>Flexible goals</li><li>Skill development</li><li>Performance support</li></ul><a href="schedule-contact.html#contact" class="btn outline">Book Private Session</a></div>
+  <section class="membership-paths reveal">
+    <article>
+      <span>Personal Training</span>
+      <h2>$60 / Week</h2>
+      <p>Structured coaching for strength, conditioning, weight management, boxing fitness, and accountability.</p>
+      <ul><li>Customized programming</li><li>Coach accountability</li><li>Strength + conditioning</li><li>Goal-based progress</li></ul>
+      <a class="btn dark" href="schedule-contact.html#contact">Ask About Training</a>
+    </article>
+
+    <article class="highlight">
+      <span>Martial Arts</span>
+      <h2>$140 / Month</h2>
+      <p>Full martial arts membership for Boxing, Kickboxing, Muay Thai, No-Gi Jiu Jitsu, self-defense, and combat conditioning.</p>
+      <ul><li>Boxing Level 1 + 2</li><li>Kickboxing Level 1 + 2</li><li>Muay Thai striking</li><li>No-Gi Jiu Jitsu</li><li>Combat conditioning</li></ul>
+      <a class="btn gold" href="schedule-contact.html#contact">Try Free Class</a>
+    </article>
+
+    <article>
+      <span>Private Training</span>
+      <h2>$40 / Session</h2>
+      <p>One-on-one coaching for focused development, technique, strength, conditioning, or combat skill.</p>
+      <ul><li>Private attention</li><li>Flexible goals</li><li>Skill development</li><li>Performance support</li></ul>
+      <a class="btn dark" href="schedule-contact.html#contact">Book Private Session</a>
+    </article>
+  </section>
+
+  <section class="split-poster reveal">
+    <div class="poster-placeholder">DROP-IN / MEMBER CULTURE MEDIA</div>
+    <div>
+      <p class="eyebrow">Drop-In Policy</p>
+      <h2>Visiting? Train With Us.</h2>
+      <p>Drop-in sessions give guests access to expert coaching, elite-level programming, and a supportive training atmosphere built around performance, community, and results.</p>
+      <a class="btn gold" href="schedule-contact.html#contact">Request Drop-In Info</a>
     </div>
   </section>
-
-  <section class="feature-split reveal">
-    <div class="large-photo">DROP-IN / MEMBER CULTURE MEDIA</div>
-    <div class="feature-copy"><p class="kicker">Drop-In Policy</p><h2>Visiting? Train With Us.</h2><p>Drop-in sessions give guests access to expert coaching, elite-level programming, and a supportive training atmosphere built around performance, community, and results.</p><a href="schedule-contact.html#contact" class="btn yellow">Request Drop-In Info</a></div>
-  </section>
-</main><footer class="site-footer">
+</main>
+<footer class="footer">
   <div>
     <h3>West Coast Athletics</h3>
     <p>Strong by Nature. Athletic by Choice.</p>
   </div>
+
   <div>
     <p><strong>120 N Bradford Ave, Placentia, CA 92870</strong></p>
     <p>Bradford Center • 5 minutes from CSUF • One block from Valencia High School</p>
   </div>
+
   <div>
-    <p>Option B demo concept by <strong>LNL Solutions</strong></p>
+    <p>Alternative mockup by <strong>LNL Solutions</strong></p>
   </div>
 </footer>
-<a class="sticky-mobile" href="schedule-contact.html#contact">Book Free Workout</a>
+
+<a class="sticky-cta" href="schedule-contact.html#contact">Book Free Workout</a>
 <script src="script.js"></script>
 </body>
 </html>
